@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Internet
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Internet\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Internet()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Internet\r\n
+comment2.params=message
+comment2.target=void\ transmit(IpMessage)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=machine
+comment3.target=void\ addMachine(IpMachine)
+comment4.params=machine
+comment4.target=java.lang.String\ connect(IpMachine)
+numComments=5

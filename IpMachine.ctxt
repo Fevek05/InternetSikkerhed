@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=IpMachine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ IpMachine\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=connectedToInternet
+comment1.target=IpMachine(Internet)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Client\r\n
+comment2.params=
+comment2.target=IpMachine()
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ IpMachine\r\n
+comment3.params=message
+comment3.target=IpMessage\ receive(IpMessage)
+comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment4.params=
+comment4.target=Internet\ getInternet()
+comment5.params=
+comment5.target=java.lang.String\ getId()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=hash
+comment7.target=java.lang.String\ toHexString(byte[])
+comment7.text=\ koden\ er\ taget\ fra\ https\://www.geeksforgeeks.org/sha-256-hash-in-java/\r\n\ \r\n
+comment8.params=tekst
+comment8.target=java.lang.String\ hash(java.lang.String)
+numComments=9
