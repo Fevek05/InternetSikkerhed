@@ -22,6 +22,7 @@ public class IpMessage implements Cloneable // implements Cloneable er for at
     private String from; // Id på afsenderen af beskeden
     private String to; // Id på modtageren af beskeden
     private String message; // noget indholdstekst
+    private String hash;
     // Husk at tilføje til print-metoden, hvis du tilføjer flere felter.
 
     private boolean arrived; // markerer beskeden er kommet frem. bruges vist ikke til så meget pt.
@@ -106,6 +107,7 @@ public class IpMessage implements Cloneable // implements Cloneable er for at
         System.out.println("From: " + getSender());
         System.out.println("To: " + getRecipient());
         System.out.println("Message: " + getMessage());
+        //System.out.println("Hash: " + g
     }
 
     @Override // Lidt langhåret syntaks for at kunne bruge den indbyggede clone funktion til
