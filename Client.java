@@ -6,10 +6,6 @@
  * @version (a version number or a date)
  */
 public class Client extends IpMachine {
-    /**
-     * Constructor for objects of class Client
-     */
-
     public Client(Internet connectedToInternet)
     // The client has to be be connected to an internet when created
     {

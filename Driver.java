@@ -7,10 +7,6 @@
  */
 public class Driver {
     // instance variables - replace the example below with your own
-
-    /**
-     * Constructor for objects of class Driver
-     */
     public Driver() {
         // initialize instance variables
     }
@@ -24,7 +20,7 @@ public class Driver {
     public static void main() {
         // put your code here
         Internet internet = new Internet();
-        // HackerListener nsa = new HackerListener(internet);
+        HackerListener nsa = new HackerListener(internet);
         Client mathilde = new Client(internet);
         Server server = new Server(internet);
         server.setPassword(mathilde.getId(), "1234");
