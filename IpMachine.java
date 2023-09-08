@@ -93,7 +93,7 @@ public class IpMachine {
     public String hash(String tekst) {
         MessageDigest md;
         try {
-            md = MessageDigest.getInstance("Sha-2896");
+            md = MessageDigest.getInstance("Sha-256");
         } catch (NoSuchAlgorithmException e) // skal håndtere at getInstance
         // giver en fejl hvis jeg f.eks. havde stavert sha-256 forkert.
         // eller en gang i fremtiden af getInstance ikke understøtter sha256,
