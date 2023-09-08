@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=IpMessage
-comment0.text=\r\n\ IpMessage\ emulerer\ en\ besked\ sendt\ over\ internettet.\r\n\ Du\ er\ velkommen\ til\ at\ lave\ s\u00E5\ mange\ String-felter\ som\ du\ lyster\r\n\ I\ \ virkeligheden\ er\ det\ IpMessage\ en\ lang\ string\ og\ de\ forskellige\ felter\ svarer\ s\u00E5\ til\ forskellige\ dele\ \r\n\ af\ den\ lange\ samlede\ String,\ men\ det\ er\ noget\ nemmere\ at\ arbejde\ med\ forskellige\ felter\ til\ forskellige\ form\u00E5l\r\n\ \r\n\ Husk\ blot,\ hvis\ du\ tilf\u00F8jer\ flere\ felter\ til\ IpMessage,\ \ s\u00E5\ skal\ du\ ogs\u00E5\ udskrive\ dem\ i\ print\ \r\n\ (ellers\ er\ det\ snyd\ for\ en\ Hacker\ kan\ se\ hele\ den\ lange\ String)\ \r\n\r\n\ @author\ Kasper\ Astrup\ Eriksen\r\n\ @version\ (v1)\r\n
+comment0.text=\r\n\ IpMessage\ emulerer\ en\ besked\ sendt\ over\ internettet.\r\n\ Du\ er\ velkommen\ til\ at\ lave\ s\u00E5\ mange\ String-felter\ som\ du\ lyster\r\n\ I\ virkeligheden\ er\ det\ IpMessage\ en\ lang\ string\ og\ de\ forskellige\ felter\r\n\ svarer\ s\u00E5\ til\ forskellige\ dele\r\n\ af\ den\ lange\ samlede\ String,\ men\ det\ er\ noget\ nemmere\ at\ arbejde\ med\r\n\ forskellige\ felter\ til\ forskellige\ form\u00E5l\r\n\ \r\n\ Husk\ blot,\ hvis\ du\ tilf\u00F8jer\ flere\ felter\ til\ IpMessage,\ s\u00E5\ skal\ du\ ogs\u00E5\r\n\ udskrive\ dem\ i\ print\r\n\ (ellers\ er\ det\ snyd\ for\ en\ Hacker\ kan\ se\ hele\ den\ lange\ String)\r\n\r\n\ @author\ Kasper\ Astrup\ Eriksen\r\n\ @version\ (v1)\r\n
 comment1.params=
 comment1.target=IpMessage()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ IpMessage\r\n
@@ -16,7 +16,7 @@ comment2.params=from\ to\ message
 comment2.target=IpMessage(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment3.params=
 comment3.target=java.lang.String\ getRecipient()
-comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ y\ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ the\ sum\ of\ x\ and\ y\r\n
 comment4.params=to
 comment4.target=void\ setRecipient(java.lang.String)
 comment5.params=
@@ -29,5 +29,5 @@ comment8.params=message
 comment8.target=void\ setMessage(java.lang.String)
 comment9.params=
 comment9.target=boolean\ getArrived()
-comment9.text=public\ boolean\ isDeleted()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ put\ your\ code\ here\r\n\ \ \ \ \ \ \ \ return\ \!deleted;\r\n}
+comment9.text=\r\n\ public\ boolean\ isDeleted()\r\n\ {\r\n\ //\ put\ your\ code\ here\r\n\ return\ \!deleted;\r\n\ }\r\n
 numComments=14

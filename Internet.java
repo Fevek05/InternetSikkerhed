@@ -56,7 +56,7 @@ public class Internet {
         if (machine.getClass().getSimpleName() == "Client") {
             id = "user" + current_id_number;
         } else {
-            id = "www." + machine.getClass().getSimpleName() + current_id_number + ".net";
+            id = machine.getClass().getSimpleName() + current_id_number;
         }
         id2IpMachine.put(id, machine);
         return id;
